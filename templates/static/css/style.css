@@ -1,0 +1,33 @@
+p{
+    color: slategrey;
+    font-size: 14px;
+}
+
+h2{
+    color: darkgreen;
+    font-size: 24px;
+}
+
+table{
+    border-color: slategrey;
+    border-radius: 3px;
+    border-style: dashed;
+}
+
+/*Style for special paragraph text for my favorite classes*/
+p#favorite-class{
+    color: steelblue;
+    font-size: 16px;
+}
+
+/*Style for special class for paragraphs with links*/
+p.link{
+    color: darkslategrey;
+    font-size: 16px;
+}
+
+/*Style for special class for images*/
+img.logo{
+    width: 267px;
+    height: 72px;
+}
