@@ -12,7 +12,7 @@ class Student(db.Model):
     num_credits_completed = db.Column(db.Integer, nullable=False)
     gpa = db.Column(db.Float, nullable=False)
     is_honors = db.Column(db.Boolean, nullable=False)
-    email = db.Column(db.VarChar(100), unique=True, nullable=False)
+    email = db.Column(db.String(100), unique=True, nullable=False)
 
     def __init__(self, first_name, last_name, major_id, birth_date, is_honors, email):
         self.first_name = first_name
